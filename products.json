@@ -1,0 +1,198 @@
+[
+    {
+        "codigo": "AQ-001",
+        "nombre": "Billetera de Cuero Premium",
+        "descripcion": "Elegante billetera de cuero genuino con múltiples compartimentos para tarjetas y billetes. Diseño minimalista y duradero, perfecta para el día a día.",
+        "categoria": "Billeteras y Carteras",
+        "precio": 45.99,
+        "estado": "disponible",
+        "fotos": [
+            "https://i.ibb.co/Xx38wN43/puppy.jpg",
+            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "AQ-002",
+        "nombre": "Vitamina C 1000mg",
+        "descripcion": "Suplemento de vitamina C de alta potencia para fortalecer el sistema inmunológico. Cápsulas fáciles de consumir, 60 unidades por frasco.",
+        "categoria": "Vitaminas y Suplementos",
+        "precio": 28.50,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1550572017-4325b1c04f35?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1615485500834-bc10199bc768?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "AQ-003",
+        "nombre": "Zapatos Deportivos Running",
+        "descripcion": "Zapatillas deportivas con tecnología de amortiguación avanzada. Ideales para running y entrenamiento. Diseño ergonómico y transpirable.",
+        "categoria": "Zapatos",
+        "precio": 89.99,
+        "estado": "vendido",
+        "fotos": [
+            "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "AQ-004",
+        "nombre": "Serum Facial de Ácido Hialurónico",
+        "descripcion": "Serum hidratante intensivo con ácido hialurónico puro. Reduce arrugas y líneas de expresión. Apto para todo tipo de piel.",
+        "categoria": "Skin Care",
+        "precio": 35.00,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "AQ-005",
+        "nombre": "Perfume Floral Elegance",
+        "descripcion": "Fragancia femenina con notas florales y cítricas. Larga duración, presentación de 100ml. Aroma sofisticado y fresco.",
+        "categoria": "Perfumes",
+        "precio": 65.00,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "AQ-006",
+        "nombre": "Collar de Cristales Brillantes",
+        "descripcion": "Elegante collar con cristales austriacos. Diseño clásico que complementa cualquier outfit. Acabado en oro de 18k.",
+        "categoria": "Bisutería",
+        "precio": 22.99,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "AQ-007",
+        "nombre": "Blusa Casual de Lino",
+        "descripcion": "Blusa fresca y cómoda de lino 100% natural. Ideal para clima cálido. Disponible en varios colores y tallas.",
+        "categoria": "Ropa",
+        "precio": 38.50,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "AQ-008",
+        "nombre": "Termo de Acero Inoxidable 750ml",
+        "descripcion": "Termo térmico de doble pared que mantiene bebidas frías por 24h y calientes por 12h. Libre de BPA, ideal para deportes y viajes.",
+        "categoria": "Termos",
+        "precio": 32.00,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1609840112855-9ab5ad8f66e4?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "AQ-009",
+        "nombre": "Cartera de Mano Elegante",
+        "descripcion": "Sofisticada cartera de mano con cadena desmontable. Diseño versátil que puede usarse como clutch o crossbody. Acabado en piel sintética de alta calidad.",
+        "categoria": "Billeteras y Carteras",
+        "precio": 52.99,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "AQ-010",
+        "nombre": "Multivitamínico Complete",
+        "descripcion": "Complejo multivitamínico con 25 vitaminas y minerales esenciales. Fórmula balanceada para adultos. 90 tabletas.",
+        "categoria": "Vitaminas y Suplementos",
+        "precio": 42.00,
+        "estado": "vendido",
+        "fotos": [
+            "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1628016851692-17691bd7b217?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "AQ-011",
+        "nombre": "Zapatos Formales de Vestir",
+        "descripcion": "Elegantes zapatos de vestir en cuero genuino. Perfectos para ocasiones formales y trabajo. Suela antideslizante y plantilla acolchada.",
+        "categoria": "Zapatos",
+        "precio": 95.00,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1582897085656-c636d006a246?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "AQ-012",
+        "nombre": "Crema Facial Anti-Edad",
+        "descripcion": "Crema nutritiva anti-edad con retinol y colágeno. Reduce arrugas visiblemente en 4 semanas. Textura ligera de rápida absorción.",
+        "categoria": "Skin Care",
+        "precio": 48.00,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "AQ-013",
+        "nombre": "Perfume Masculine Intense",
+        "descripcion": "Fragancia masculina amaderada con notas de cedro y bergamota. Aroma sofisticado de larga duración. Presentación de 120ml.",
+        "categoria": "Perfumes",
+        "precio": 72.00,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1557170334-a9632e77c6e4?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "AQ-014",
+        "nombre": "Set de Aretes y Pulsera",
+        "descripcion": "Conjunto coordinado de aretes y pulsera con detalles en cristal. Diseño moderno y versátil. Acabado antialérgico.",
+        "categoria": "Bisutería",
+        "precio": 29.99,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "AQ-015",
+        "nombre": "Vestido Casual Floral",
+        "descripcion": "Hermoso vestido con estampado floral. Diseño midi con corte favorecedor. Tela ligera y fresca perfecta para primavera-verano.",
+        "categoria": "Ropa",
+        "precio": 55.00,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    }
+]
+
