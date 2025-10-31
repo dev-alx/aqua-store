@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua Store - Catálogo de Productos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>🌊 Aqua Store</h1>
+                <p class="tagline">Tu tienda de productos variados</p>
+            </div>
+            <nav class="nav">
+                <a href="#productos" class="nav-link">Productos</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-title">Encuentra Todo Lo Que Necesitas</h2>
+            <p class="hero-subtitle">Billeteras, Carteras, Vitaminas, Zapatos, Skin Care, Perfumes, Bisutería, Ropa, Termos y más</p>
+        </div>
+    </section>
+
+    <!-- Filters Section -->
+    <section class="filters-section" id="productos">
+        <div class="container">
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="category-filter">Categoría:</label>
+                    <select id="category-filter" class="filter-select">
+                        <option value="">Todas las categorías</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="status-filter">Estado:</label>
+                    <select id="status-filter" class="filter-select">
+                        <option value="">Todos</option>
+                        <option value="disponible">Disponible</option>
+                        <option value="vendido">Vendido</option>
+                    </select>
+                </div>
+                <div class="filter-group search-group">
+                    <label for="search-input">Buscar:</label>
+                    <input type="text" id="search-input" class="search-input" placeholder="Buscar productos...">
+                </div>
+            </div>
+            <div class="results-count">
+                <span id="results-count">Cargando productos...</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid" id="products-grid">
+                <!-- Products will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Modal -->
+    <div class="modal" id="product-modal">
+        <div class="modal-overlay" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">✕</button>
+            <div class="modal-body">
+                <div class="modal-gallery">
+                    <div class="modal-main-image">
+                        <img id="modal-main-img" src="" alt="">
+                    </div>
+                    <div class="modal-thumbnails" id="modal-thumbnails">
+                        <!-- Thumbnails will be loaded here -->
+                    </div>
+                </div>
+                <div class="modal-details">
+                    <div class="modal-header">
+                        <span class="modal-code" id="modal-code"></span>
+                        <span class="modal-status" id="modal-status"></span>
+                    </div>
+                    <h2 class="modal-title" id="modal-title"></h2>
+                    <span class="modal-category" id="modal-category"></span>
+                    <p class="modal-description" id="modal-description"></p>
+                    <div class="modal-price" id="modal-price"></div>
+                    <button class="btn-contact" onclick="contactWhatsApp()">
+                        💬 Contactar por WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🌊 Aqua Store</h3>
+                    <p>Tu tienda de confianza para productos variados de calidad</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📱 WhatsApp: <a href="https://wa.me/1234567890" target="_blank">+123 456 7890</a></p>
+                    <p>📧 Email: info@aquastore.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Horario</h4>
+                    <p>Lunes a Viernes: 9:00 - 18:00</p>
+                    <p>Sábados: 10:00 - 14:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aqua Store. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
