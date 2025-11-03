@@ -1,133 +1,226 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aqua Store - Catálogo de Productos</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <h1>🌊 Aqua Store</h1>
-                <p class="tagline">Tu tienda de productos variados</p>
-            </div>
-            <nav class="nav">
-                <a href="#productos" class="nav-link">Productos</a>
-                <a href="#contacto" class="nav-link">Contacto</a>
-            </nav>
-        </div>
-    </header>
+// Global variables
+let allProducts = [];
+let currentProduct = null;
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h2 class="hero-title">Encuentra Todo Lo Que Necesitas</h2>
-            <p class="hero-subtitle">Billeteras, Carteras, Vitaminas, Zapatos, Skin Care, Perfumes, Bisutería, Ropa, Termos y más</p>
-        </div>
-    </section>
+// Initialize the application
+document.addEventListener('DOMContentLoaded', () => {
+    loadProducts();
+    setupEventListeners();
+});
 
-    <!-- Filters Section -->
-    <section class="filters-section" id="productos">
-        <div class="container">
-            <div class="filters">
-                <div class="filter-group">
-                    <label for="category-filter">Categoría:</label>
-                    <select id="category-filter" class="filter-select">
-                        <option value="">Todas las categorías</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <label for="status-filter">Estado:</label>
-                    <select id="status-filter" class="filter-select">
-                        <option value="">Todos</option>
-                        <option value="disponible">Disponible</option>
-                        <option value="vendido">Vendido</option>
-                        <option value="pendiente">Pendiente</option>
-                    </select>
-                </div>
-                <div class="filter-group search-group">
-                    <label for="search-input">Buscar:</label>
-                    <input type="text" id="search-input" class="search-input" placeholder="Buscar productos...">
-                </div>
-            </div>
-            <div class="results-count">
-                <span id="results-count">Cargando productos...</span>
-            </div>
-        </div>
-    </section>
+// Load products from JSON file
+async function loadProducts() {
+    try {
+        const response = await fetch('products.json');
+        
+        // Check if the response was successful
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        allProducts = await response.json();
+        
+        // Populate category filter
+        populateCategoryFilter();
+        
+        // Display all products initially
+        displayProducts(allProducts);
+        
+        // Update results count
+        updateResultsCount(allProducts.length);
+    } catch (error) {
+        console.error('Error loading products:', error);
+        showError();
+    }
+}
 
-    <!-- Products Grid -->
-    <section class="products-section">
-        <div class="container">
-            <div class="products-grid" id="products-grid">
-                <!-- Products will be loaded here by JavaScript -->
-            </div>
-        </div>
-    </section>
+// Populate category filter dropdown
+function populateCategoryFilter() {
+    const categories = [...new Set(allProducts.map(p => p.categoria))];
+    const categoryFilter = document.getElementById('category-filter');
+    
+    // Sort categories alphabetically (opcional)
+    categories.sort();
+    
+    categories.forEach(category => {
+        const option = document.createElement('option');
+        option.value = category;
+        option.textContent = category;
+        categoryFilter.appendChild(option);
+    });
+}
 
-    <!-- Product Modal -->
-    <div class="modal" id="product-modal">
-        <div class="modal-overlay" onclick="closeModal()"></div>
-        <div class="modal-content">
-            <button class="modal-close" onclick="closeModal()">✕</button>
-            <div class="modal-body">
-                <div class="modal-gallery">
-                    <div class="modal-main-image">
-                        <img id="modal-main-img" src="" alt="">
-                    </div>
-                    <div class="modal-thumbnails" id="modal-thumbnails">
-                        <!-- Thumbnails will be loaded here -->
-                    </div>
-                </div>
-                <div class="modal-details">
-                    <div class="modal-header">
-                        <span class="modal-code" id="modal-code"></span>
-                        <span class="modal-status" id="modal-status"></span>
-                    </div>
-                    <h2 class="modal-title" id="modal-title"></h2>
-                    <span class="modal-category" id="modal-category"></span>
-                    <p class="modal-description" id="modal-description"></p>
-                    <div class="modal-price" id="modal-price"></div>
-                    <button class="btn-contact" onclick="contactWhatsApp()">
-                        💬 Contactar por WhatsApp
-                    </button>
+// Display products in the grid
+function displayProducts(products) {
+    const grid = document.getElementById('products-grid');
+    
+    if (products.length === 0) {
+        grid.innerHTML = `
+            <div class="empty-state" style="grid-column: 1/-1;">
+                <h3>😔 No se encontraron productos</h3>
+                <p>Intenta cambiar los filtros de búsqueda</p>
+            </div>
+        `;
+        return;
+    }
+    
+    grid.innerHTML = products.map(product => `
+        <div class="product-card" onclick="openModal('${product.codigo}')">
+            <div class="product-image-container">
+                <img class="product-image" src="${product.fotos[0]}" alt="${product.nombre}">
+                <span class="product-code">${product.codigo}</span>
+                <span class="product-status ${product.estado}">${product.estado}</span>
+            </div>
+            <div class="product-info">
+                <span class="product-category">${product.categoria}</span>
+                <h3 class="product-name">${product.nombre}</h3>
+                <p class="product-description">${product.descripcion}</p>
+                <div class="product-footer">
+                    <span class="product-price">$${formatPrice(product.precio)}</span>
+                    <span class="product-images-count">📷 ${product.fotos.length} fotos</span>
                 </div>
             </div>
         </div>
-    </div>
+    `).join('');
+}
 
-    <!-- Footer -->
-    <footer class="footer" id="contacto">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>🌊 Aqua Store</h3>
-                    <p>Tu tienda de confianza para productos variados de calidad</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Contacto</h4>
-                    <p>📱 WhatsApp: <a href="https://wa.me/1234567890" target="_blank">+123 456 7890</a></p>
-                    <p>📧 Email: info@aquastore.com</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Horario</h4>
-                    <p>Lunes a Viernes: 9:00 - 18:00</p>
-                    <p>Sábados: 10:00 - 14:00</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Aqua Store. Todos los derechos reservados.</p>
-            </div>
+// Format price with thousands separator
+function formatPrice(price) {
+    return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+// Setup event listeners for filters
+function setupEventListeners() {
+    const categoryFilter = document.getElementById('category-filter');
+    const statusFilter = document.getElementById('status-filter');
+    const searchInput = document.getElementById('search-input');
+    
+    categoryFilter.addEventListener('change', filterProducts);
+    statusFilter.addEventListener('change', filterProducts);
+    searchInput.addEventListener('input', filterProducts);
+    
+    // Close modal on escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            closeModal();
+        }
+    });
+}
+
+// Filter products based on selected filters
+function filterProducts() {
+    const categoryFilter = document.getElementById('category-filter').value;
+    const statusFilter = document.getElementById('status-filter').value;
+    const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    
+    let filtered = allProducts;
+    
+    // Filter by category
+    if (categoryFilter) {
+        filtered = filtered.filter(p => p.categoria === categoryFilter);
+    }
+    
+    // Filter by status
+    if (statusFilter) {
+        filtered = filtered.filter(p => p.estado === statusFilter);
+    }
+    
+    // Filter by search term
+    if (searchTerm) {
+        filtered = filtered.filter(p => 
+            p.nombre.toLowerCase().includes(searchTerm) ||
+            p.descripcion.toLowerCase().includes(searchTerm) ||
+            p.codigo.toLowerCase().includes(searchTerm) ||
+            p.categoria.toLowerCase().includes(searchTerm)
+        );
+    }
+    
+    displayProducts(filtered);
+    updateResultsCount(filtered.length);
+}
+
+// Update results count
+function updateResultsCount(count) {
+    const resultsCount = document.getElementById('results-count');
+    resultsCount.textContent = `Mostrando ${count} producto${count !== 1 ? 's' : ''}`;
+}
+
+// Open product modal
+function openModal(codigo) {
+    currentProduct = allProducts.find(p => p.codigo === codigo);
+    if (!currentProduct) return;
+    
+    const modal = document.getElementById('product-modal');
+    
+    // Set product details
+    document.getElementById('modal-code').textContent = currentProduct.codigo;
+    document.getElementById('modal-title').textContent = currentProduct.nombre;
+    document.getElementById('modal-category').textContent = currentProduct.categoria;
+    document.getElementById('modal-description').textContent = currentProduct.descripcion;
+    document.getElementById('modal-price').textContent = `$${formatPrice(currentProduct.precio)}`;
+    
+    const statusElement = document.getElementById('modal-status');
+    statusElement.textContent = currentProduct.estado;
+    statusElement.className = `modal-status ${currentProduct.estado}`;
+    
+    // Set main image
+    document.getElementById('modal-main-img').src = currentProduct.fotos[0];
+    
+    // Set thumbnails
+    const thumbnailsContainer = document.getElementById('modal-thumbnails');
+    thumbnailsContainer.innerHTML = currentProduct.fotos.map((foto, index) => `
+        <div class="modal-thumbnail ${index === 0 ? 'active' : ''}" onclick="changeMainImage('${foto}', event)">
+            <img src="${foto}" alt="${currentProduct.nombre}">
         </div>
-    </footer>
+    `).join('');
+    
+    // Show modal
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
 
-    <script src="script.js"></script>
-</body>
-</html>
+// Close modal
+function closeModal() {
+    const modal = document.getElementById('product-modal');
+    modal.classList.remove('active');
+    document.body.style.overflow = 'auto';
+}
+
+// Change main image in modal
+function changeMainImage(imageUrl, event) {
+    document.getElementById('modal-main-img').src = imageUrl;
+    
+    // Update active thumbnail
+    document.querySelectorAll('.modal-thumbnail').forEach(thumb => {
+        thumb.classList.remove('active');
+    });
+    event.currentTarget.classList.add('active');
+}
+
+// Contact via WhatsApp
+function contactWhatsApp() {
+    if (!currentProduct) return;
+    
+    const message = `Hola, me interesa el producto:\n\n` +
+                   `Código: ${currentProduct.codigo}\n` +
+                   `Nombre: ${currentProduct.nombre}\n` +
+                   `Precio: $${formatPrice(currentProduct.precio)}\n\n` +
+                   `¿Está disponible?`;
+    
+    const whatsappNumber = '1234567890'; // Change this to your WhatsApp number
+    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    
+    window.open(url, '_blank');
+}
+
+// Show error message
+function showError() {
+    const grid = document.getElementById('products-grid');
+    grid.innerHTML = `
+        <div class="empty-state" style="grid-column: 1/-1;">
+            <h3>❌ Error al cargar los productos</h3>
+            <p>Por favor, verifica que el archivo products.json existe y es válido</p>
+        </div>
+    `;
+}
 
