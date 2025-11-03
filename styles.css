@@ -232,6 +232,11 @@ body {
     color: var(--white);
 }
 
+.product-status.pendiente {
+    background: rgba(255, 152, 0, 0.9);
+    color: var(--white);
+}
+
 .product-code {
     position: absolute;
     top: 10px;
@@ -444,6 +449,11 @@ body {
 
 .modal-status.vendido {
     background: var(--danger);
+    color: var(--white);
+}
+
+.modal-status.pendiente {
+    background: #ff9800;
     color: var(--white);
 }
 
