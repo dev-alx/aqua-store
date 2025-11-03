@@ -1,49 +1,127 @@
 [
     {
-        "codigo": "AQ-001",
-        "nombre": "Billetera de Cuero Premium",
-        "descripcion": "Elegante billetera de cuero genuino con múltiples compartimentos para tarjetas y billetes. Diseño minimalista y duradero, perfecta para el día a día.",
-        "categoria": "Billeteras y Carteras",
-        "precio": 45.99,
+        "codigo": "PROD-001",
+        "nombre": "Citrato de Magnesio",
+        "descripcion": "Suplemento de citrato de magnesio para salud ósea y muscular. Fórmula de alta absorción.",
+        "categoria": "VITAMINA",
+        "precio": 33,
         "estado": "disponible",
         "fotos": [
-            "https://i.ibb.co/Xx38wN43/puppy.jpg",
-            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
-        ]
-    },
-    {
-        "codigo": "AQ-002",
-        "nombre": "Vitamina C 1000mg",
-        "descripcion": "Suplemento de vitamina C de alta potencia para fortalecer el sistema inmunológico. Cápsulas fáciles de consumir, 60 unidades por frasco.",
-        "categoria": "Vitaminas y Suplementos",
-        "precio": 28.50,
-        "estado": "disponible",
-        "fotos": [
-            "https://images.unsplash.com/photo-1550572017-4325b1c04f35?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1628016851692-17691bd7b217?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=500&fit=crop",
             "https://images.unsplash.com/photo-1615485500834-bc10199bc768?w=500&h=500&fit=crop"
         ]
     },
     {
-        "codigo": "AQ-003",
-        "nombre": "Zapatos Deportivos Running",
-        "descripcion": "Zapatillas deportivas con tecnología de amortiguación avanzada. Ideales para running y entrenamiento. Diseño ergonómico y transpirable.",
-        "categoria": "Zapatos",
-        "precio": 89.99,
-        "estado": "vendido",
+        "codigo": "PROD-002",
+        "nombre": "Citrato de Magnesio",
+        "descripcion": "Suplemento de citrato de magnesio para salud ósea y muscular. Fórmula de alta absorción.",
+        "categoria": "VITAMINA",
+        "precio": 33,
+        "estado": "disponible",
         "fotos": [
-            "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500&h=500&fit=crop"
+            "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1550572017-4325b1c04f35?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=500&h=500&fit=crop"
         ]
     },
     {
-        "codigo": "AQ-004",
-        "nombre": "Serum Facial de Ácido Hialurónico",
-        "descripcion": "Serum hidratante intensivo con ácido hialurónico puro. Reduce arrugas y líneas de expresión. Apto para todo tipo de piel.",
-        "categoria": "Skin Care",
-        "precio": 35.00,
+        "codigo": "PROD-003",
+        "nombre": "Ashwanda",
+        "descripcion": "Suplemento natural de Ashwagandha para reducir estrés y mejorar energía.",
+        "categoria": "VITAMINA",
+        "precio": 33,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1628016851692-17691bd7b217?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1615485500834-bc10199bc768?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-004",
+        "nombre": "Ashwanda",
+        "descripcion": "Suplemento natural de Ashwagandha para reducir estrés y mejorar energía.",
+        "categoria": "VITAMINA",
+        "precio": 33,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1550572017-4325b1c04f35?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-005",
+        "nombre": "Gomas de Mujer",
+        "descripcion": "Gomitas multivitamínicas especialmente formuladas para mujeres. Sabor agradable.",
+        "categoria": "VITAMINA",
+        "precio": 37,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1628016851692-17691bd7b217?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1615485500834-bc10199bc768?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-006",
+        "nombre": "Gomas de Mujer",
+        "descripcion": "Gomitas multivitamínicas especialmente formuladas para mujeres. Sabor agradable.",
+        "categoria": "VITAMINA",
+        "precio": 37,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1550572017-4325b1c04f35?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-007",
+        "nombre": "MAGNESIO COMPLEX D3 ZINC 60 CAP",
+        "descripcion": "Complejo de magnesio con vitamina D3 y zinc. Fórmula completa para soporte óseo y inmunológico.",
+        "categoria": "VITAMINA",
+        "precio": 30,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1628016851692-17691bd7b217?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1615485500834-bc10199bc768?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-008",
+        "nombre": "MAGNESIO COMPLEX D3 ZINC 60 CAP",
+        "descripcion": "Complejo de magnesio con vitamina D3 y zinc. Fórmula completa para soporte óseo y inmunológico.",
+        "categoria": "VITAMINA",
+        "precio": 30,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1550572017-4325b1c04f35?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-009",
+        "nombre": "Crema EOS",
+        "descripcion": "Crema hidratante EOS con manteca de karité. Textura suave y aroma fresco.",
+        "categoria": "Cosmeticos",
+        "precio": 35,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-010",
+        "nombre": "Crema EOS",
+        "descripcion": "Crema hidratante EOS con manteca de karité. Textura suave y aroma fresco.",
+        "categoria": "Cosmeticos",
+        "precio": 35,
         "estado": "disponible",
         "fotos": [
             "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
@@ -52,37 +130,76 @@
         ]
     },
     {
-        "codigo": "AQ-005",
-        "nombre": "Perfume Floral Elegance",
-        "descripcion": "Fragancia femenina con notas florales y cítricas. Larga duración, presentación de 100ml. Aroma sofisticado y fresco.",
-        "categoria": "Perfumes",
-        "precio": 65.00,
+        "codigo": "PROD-011",
+        "nombre": "ELF",
+        "descripcion": "Producto de belleza ELF de alta calidad a precio accesible.",
+        "categoria": "Cosmeticos",
+        "precio": 31,
         "estado": "disponible",
         "fotos": [
-            "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=500&h=500&fit=crop"
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
         ]
     },
     {
-        "codigo": "AQ-006",
-        "nombre": "Collar de Cristales Brillantes",
-        "descripcion": "Elegante collar con cristales austriacos. Diseño clásico que complementa cualquier outfit. Acabado en oro de 18k.",
-        "categoria": "Bisutería",
-        "precio": 22.99,
+        "codigo": "PROD-012",
+        "nombre": "ELF",
+        "descripcion": "Producto de belleza ELF de alta calidad a precio accesible.",
+        "categoria": "Cosmeticos",
+        "precio": 31,
         "estado": "disponible",
         "fotos": [
-            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&h=500&fit=crop"
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
         ]
     },
     {
-        "codigo": "AQ-007",
-        "nombre": "Blusa Casual de Lino",
-        "descripcion": "Blusa fresca y cómoda de lino 100% natural. Ideal para clima cálido. Disponible en varios colores y tallas.",
-        "categoria": "Ropa",
-        "precio": 38.50,
+        "codigo": "PROD-013",
+        "nombre": "Sheamoisture (Hazzle)",
+        "descripcion": "Producto SheaMoisture con ingredientes naturales para cuidado de la piel.",
+        "categoria": "Cosmeticos",
+        "precio": 20,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-014",
+        "nombre": "Chocolate (hazel)",
+        "descripcion": "Delicioso chocolate de calidad premium. Perfecto para regalar o disfrutar.",
+        "categoria": "Chocoloate",
+        "precio": 26,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1511381939415-e44015466834?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-015",
+        "nombre": "Calzon Calvin Klein Woman M",
+        "descripcion": "Ropa interior femenina Calvin Klein. Diseño cómodo y moderno.",
+        "categoria": "Ropa Interior",
+        "precio": 36,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-016",
+        "nombre": "Calzon Calvin Klein Woman M",
+        "descripcion": "Ropa interior femenina Calvin Klein. Diseño cómodo y moderno.",
+        "categoria": "Ropa Interior",
+        "precio": 36,
         "estado": "disponible",
         "fotos": [
             "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
@@ -91,50 +208,310 @@
         ]
     },
     {
-        "codigo": "AQ-008",
-        "nombre": "Termo de Acero Inoxidable 750ml",
-        "descripcion": "Termo térmico de doble pared que mantiene bebidas frías por 24h y calientes por 12h. Libre de BPA, ideal para deportes y viajes.",
-        "categoria": "Termos",
-        "precio": 32.00,
+        "codigo": "PROD-017",
+        "nombre": "Calzon Calvin Klein Woman L",
+        "descripcion": "Ropa interior femenina Calvin Klein. Diseño cómodo y moderno.",
+        "categoria": "Ropa Interior",
+        "precio": 36,
         "estado": "disponible",
         "fotos": [
-            "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1609840112855-9ab5ad8f66e4?w=500&h=500&fit=crop"
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
         ]
     },
     {
-        "codigo": "AQ-009",
-        "nombre": "Cartera de Mano Elegante",
-        "descripcion": "Sofisticada cartera de mano con cadena desmontable. Diseño versátil que puede usarse como clutch o crossbody. Acabado en piel sintética de alta calidad.",
-        "categoria": "Billeteras y Carteras",
-        "precio": 52.99,
+        "codigo": "PROD-018",
+        "nombre": "Calzon Calvin Klein Woman L",
+        "descripcion": "Ropa interior femenina Calvin Klein. Diseño cómodo y moderno.",
+        "categoria": "Ropa Interior",
+        "precio": 33,
         "estado": "disponible",
         "fotos": [
-            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop"
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
         ]
     },
     {
-        "codigo": "AQ-010",
-        "nombre": "Multivitamínico Complete",
-        "descripcion": "Complejo multivitamínico con 25 vitaminas y minerales esenciales. Fórmula balanceada para adultos. 90 tabletas.",
-        "categoria": "Vitaminas y Suplementos",
-        "precio": 42.00,
-        "estado": "vendido",
+        "codigo": "PROD-019",
+        "nombre": "Juego Camisa/Pantalon Negro Talla M",
+        "descripcion": "Conjunto completo de camisa y pantalón. Perfecto para ocasiones casuales.",
+        "categoria": "Ropa",
+        "precio": 60,
+        "estado": "disponible",
         "fotos": [
-            "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1628016851692-17691bd7b217?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=500&fit=crop"
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
         ]
     },
     {
-        "codigo": "AQ-011",
-        "nombre": "Zapatos Formales de Vestir",
-        "descripcion": "Elegantes zapatos de vestir en cuero genuino. Perfectos para ocasiones formales y trabajo. Suela antideslizante y plantilla acolchada.",
-        "categoria": "Zapatos",
-        "precio": 95.00,
+        "codigo": "PROD-020",
+        "nombre": "Juego Camisa/Pantalon Rayado Talla L",
+        "descripcion": "Conjunto completo de camisa y pantalón. Perfecto para ocasiones casuales.",
+        "categoria": "Ropa",
+        "precio": 60,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-021",
+        "nombre": "MASCARA DE PESTANA Maybeline",
+        "descripcion": "Máscara de pestañas para volumen y longitud. Resistente al agua.",
+        "categoria": "Maquillaje",
+        "precio": 20,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-022",
+        "nombre": "MASCARA DE PESTANA Maybeline",
+        "descripcion": "Máscara de pestañas para volumen y longitud. Resistente al agua.",
+        "categoria": "Maquillaje",
+        "precio": 20,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-023",
+        "nombre": "Pantalon Blanco Lino Talla S/M",
+        "descripcion": "Pantalón casual de alta calidad. Diseño cómodo y versátil.",
+        "categoria": "Ropa",
+        "precio": 14,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-024",
+        "nombre": "Conjunto Celeste Talla S/M",
+        "descripcion": "Conjunto completo para mujer. Diseño moderno y cómodo.",
+        "categoria": "Ropa",
+        "precio": 35,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-025",
+        "nombre": "Conjunto Negro Camisa S/M Pantalon L/XL",
+        "descripcion": "Conjunto completo de camisa y pantalón. Perfecto para ocasiones casuales.",
+        "categoria": "Ropa",
+        "precio": 35,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-026",
+        "nombre": "Camisa Blanca Playera Woman Talla S/M",
+        "descripcion": "Camisa casual elegante. Tejido suave y fácil de combinar.",
+        "categoria": "Ropa",
+        "precio": 24,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-027",
+        "nombre": "Hand sanitizer",
+        "descripcion": "Gel desinfectante para manos. Elimina 99.9% de gérmenes.",
+        "categoria": "SKIN CARE",
+        "precio": 9,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-028",
+        "nombre": "ALL ABOUT CLEAN CLINIC",
+        "descripcion": "Loción limpiadora facial para piel radiante y sin impurezas.",
+        "categoria": "SKIN CARE",
+        "precio": 38,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-029",
+        "nombre": "NEUTROGENAL WATER GEL LEANCER",
+        "descripcion": "Gel hidratante ligero de rápida absorción. Ideal para todo tipo de piel.",
+        "categoria": "SKIN CARE",
+        "precio": 26,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-030",
+        "nombre": "CLINIC LOCION CLARIFICANTE",
+        "descripcion": "Loción limpiadora facial para piel radiante y sin impurezas.",
+        "categoria": "SKIN CARE",
+        "precio": 38,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-031",
+        "nombre": "CENTELLA",
+        "descripcion": "Producto con extracto de centella asiática para calmar y reparar la piel.",
+        "categoria": "SKIN CARE",
+        "precio": 40,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-032",
+        "nombre": "MULTIVITAMINAS GOMAS",
+        "descripcion": "Complejo multivitamínico en gomitas. Fácil de consumir diariamente.",
+        "categoria": "VITAMINA",
+        "precio": 34,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1550572017-4325b1c04f35?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-033",
+        "nombre": "ELF CLEANER",
+        "descripcion": "Producto de belleza ELF de alta calidad a precio accesible.",
+        "categoria": "SKIN CARE",
+        "precio": 25,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-034",
+        "nombre": "CREMA HYPO NEUTRO",
+        "descripcion": "Crema hipoalergénica para pieles sensibles. Fórmula neutra sin fragancias.",
+        "categoria": "CREMA",
+        "precio": 28,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-035",
+        "nombre": "CLINIC LOCION CLARIFICANTE",
+        "descripcion": "Loción limpiadora facial para piel radiante y sin impurezas.",
+        "categoria": "SKIN CARE",
+        "precio": 38,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-036",
+        "nombre": "GOLY VINAGRE DE MANZANA",
+        "descripcion": "Gomitas de vinagre de manzana para digestión y metabolismo saludable.",
+        "categoria": "VITAMINA",
+        "precio": 35,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1550572017-4325b1c04f35?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-037",
+        "nombre": "SKIN DETOTS",
+        "descripcion": "Producto detox para limpiar y purificar la piel profundamente.",
+        "categoria": "SKIN CARE",
+        "precio": 28,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-038",
+        "nombre": "MASCARA DE PESTANA ArganOil",
+        "descripcion": "Máscara de pestañas para volumen y longitud. Resistente al agua.",
+        "categoria": "MAQUILLAJE",
+        "precio": 16,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-039",
+        "nombre": "ADIDAS GAZELLE",
+        "descripcion": "Calzado deportivo de marca reconocida. Comodidad y estilo premium.",
+        "categoria": "ZAPATOS/MUJER",
+        "precio": 77,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-040",
+        "nombre": "PUMA ALEX",
+        "descripcion": "Calzado deportivo de marca reconocida. Comodidad y estilo premium.",
+        "categoria": "ZAPATOS/HOMBRE",
+        "precio": 70,
         "estado": "disponible",
         "fotos": [
             "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=500&h=500&fit=crop",
@@ -143,24 +520,167 @@
         ]
     },
     {
-        "codigo": "AQ-012",
-        "nombre": "Crema Facial Anti-Edad",
-        "descripcion": "Crema nutritiva anti-edad con retinol y colágeno. Reduce arrugas visiblemente en 4 semanas. Textura ligera de rápida absorción.",
-        "categoria": "Skin Care",
-        "precio": 48.00,
+        "codigo": "PROD-041",
+        "nombre": "ZAPATOS NAUTICA ALEX",
+        "descripcion": "Calzado cómodo y elegante. Diseño versátil para diversas ocasiones.",
+        "categoria": "ZAPATOS/HOMBRE",
+        "precio": 70,
         "estado": "disponible",
         "fotos": [
-            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop"
+            "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500&h=500&fit=crop"
         ]
     },
     {
-        "codigo": "AQ-013",
-        "nombre": "Perfume Masculine Intense",
-        "descripcion": "Fragancia masculina amaderada con notas de cedro y bergamota. Aroma sofisticado de larga duración. Presentación de 120ml.",
-        "categoria": "Perfumes",
-        "precio": 72.00,
+        "codigo": "PROD-042",
+        "nombre": "TERMO STAN GRIS",
+        "descripcion": "Termo térmico de alta calidad. Mantiene bebidas frías o calientes por horas.",
+        "categoria": "TERMO",
+        "precio": 53,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1609840112855-9ab5ad8f66e4?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-043",
+        "nombre": "TERMO STAN NARANJA",
+        "descripcion": "Termo térmico de alta calidad. Mantiene bebidas frías o calientes por horas.",
+        "categoria": "TERMO",
+        "precio": 45,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1609840112855-9ab5ad8f66e4?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-044",
+        "nombre": "BOXER CALVIN KLEIN MAN M",
+        "descripcion": "Ropa interior masculina de alta calidad. Cómoda y duradera.",
+        "categoria": "ROPA INTERIOR",
+        "precio": 53,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-045",
+        "nombre": "BOXER CALVIN KLEIN MAN M",
+        "descripcion": "Ropa interior masculina de alta calidad. Cómoda y duradera.",
+        "categoria": "ROPA INTERIOR",
+        "precio": 45,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-046",
+        "nombre": "ZAPATOS NEW BALANCE 6.5",
+        "descripcion": "Calzado deportivo New Balance. Comodidad y estilo para uso diario.",
+        "categoria": "ZAPATOS",
+        "precio": 110,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-047",
+        "nombre": "TOMMY CORREA NEGRA/BLANCO PEQ",
+        "descripcion": "Cartera o billetera de marca prestigiosa. Diseño elegante y duradero.",
+        "categoria": "CARTERAS",
+        "precio": 46,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-048",
+        "nombre": "TOMMY DOBLE ZIPER",
+        "descripcion": "Cartera o billetera de marca prestigiosa. Diseño elegante y duradero.",
+        "categoria": "CARTERAS",
+        "precio": 55,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-049",
+        "nombre": "Canvastote",
+        "descripcion": "Bolsa reutilizable resistente. Ideal para compras o uso diario.",
+        "categoria": "BOLSAS",
+        "precio": 22,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-050",
+        "nombre": "TOMMY JUSTINE FLAP (PERDIDA)",
+        "descripcion": "Cartera o billetera de marca prestigiosa. Diseño elegante y duradero.",
+        "categoria": "CARTERAS",
+        "precio": 55,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-051",
+        "nombre": "TOMMY BANDOLERA",
+        "descripcion": "Cartera o billetera de marca prestigiosa. Diseño elegante y duradero.",
+        "categoria": "CARTERAS",
+        "precio": 60,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-052",
+        "nombre": "TOMMY NAVY",
+        "descripcion": "Cartera o billetera de marca prestigiosa. Diseño elegante y duradero.",
+        "categoria": "CARTERA CROSSBODY",
+        "precio": 47,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-053",
+        "nombre": "VERSACE PERFUME MAN",
+        "descripcion": "Fragancia elegante de larga duración. Aroma sofisticado y cautivador.",
+        "categoria": "PERFUME",
+        "precio": 80,
         "estado": "disponible",
         "fotos": [
             "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500&h=500&fit=crop",
@@ -169,30 +689,1576 @@
         ]
     },
     {
-        "codigo": "AQ-014",
-        "nombre": "Set de Aretes y Pulsera",
-        "descripcion": "Conjunto coordinado de aretes y pulsera con detalles en cristal. Diseño moderno y versátil. Acabado antialérgico.",
-        "categoria": "Bisutería",
-        "precio": 29.99,
+        "codigo": "PROD-054",
+        "nombre": "PERFUME MONT BLANC",
+        "descripcion": "Fragancia elegante de larga duración. Aroma sofisticado y cautivador.",
+        "categoria": "PERFUME",
+        "precio": 55,
         "estado": "disponible",
         "fotos": [
-            "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&h=500&fit=crop",
-            "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=500&h=500&fit=crop"
+            "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=500&h=500&fit=crop"
         ]
     },
     {
-        "codigo": "AQ-015",
-        "nombre": "Vestido Casual Floral",
-        "descripcion": "Hermoso vestido con estampado floral. Diseño midi con corte favorecedor. Tela ligera y fresca perfecta para primavera-verano.",
-        "categoria": "Ropa",
-        "precio": 55.00,
+        "codigo": "PROD-055",
+        "nombre": "COLUMBIA NEGRA VARON",
+        "descripcion": "Billetera Columbia para hombre. Diseño funcional y duradero.",
+        "categoria": "BILLETERA",
+        "precio": 38,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-056",
+        "nombre": "4PK Tapa Pajias",
+        "descripcion": "Conjunto de tapas para pajitas reutilizables.",
+        "categoria": "OTROS",
+        "precio": 7,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-057",
+        "nombre": "PERRY ELIS CAFE VARON",
+        "descripcion": "Billetera Perry Ellis para hombre. Diseño elegante en color café.",
+        "categoria": "BILLETERA",
+        "precio": 40,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-058",
+        "nombre": "CARTERA ALDO VERDE",
+        "descripcion": "Cartera Aldo en color verde. Diseño elegante y duradero.",
+        "categoria": "CARTERAS",
+        "precio": 61,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-059",
+        "nombre": "TOTE TOMMY",
+        "descripcion": "Bolso tote Tommy. Espacioso y elegante.",
+        "categoria": "CARTERAS",
+        "precio": 85,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-060",
+        "nombre": "CARTERA NINE WEST BLACK",
+        "descripcion": "Cartera Nine West en negro. Diseño sofisticado.",
+        "categoria": "CARTERAS",
+        "precio": 62,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-061",
+        "nombre": "CARTERA NINE WEST RED",
+        "descripcion": "Cartera Nine West en rojo. Diseño elegante y llamativo.",
+        "categoria": "CARTERAS",
+        "precio": 62,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-062",
+        "nombre": "CARTERA ROSADA WOMAN TOMMY",
+        "descripcion": "Cartera Tommy para mujer en color rosado.",
+        "categoria": "CARTERAS",
+        "precio": 62,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-063",
+        "nombre": "MOCHILA TOMMY",
+        "descripcion": "Mochila Tommy de alta calidad. Espaciosa y cómoda.",
+        "categoria": "MOCHILA",
+        "precio": 85,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-064",
+        "nombre": "CARTERA GRANDE TOMMY",
+        "descripcion": "Cartera Tommy tamaño grande. Amplia y elegante.",
+        "categoria": "CARTERAS",
+        "precio": 85,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-065",
+        "nombre": "CARTERA STEVE MADIN",
+        "descripcion": "Cartera Steve Madden. Diseño moderno y elegante.",
+        "categoria": "CARTERAS",
+        "precio": 65,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-066",
+        "nombre": "CARTERA ANNE KLEIN NEGRA",
+        "descripcion": "Cartera Anne Klein en negro. Elegancia atemporal.",
+        "categoria": "CARTERAS",
+        "precio": 75,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-067",
+        "nombre": "CARTERA ANNE KLEIN CAFE",
+        "descripcion": "Cartera Anne Klein en color café. Diseño sofisticado.",
+        "categoria": "CARTERAS",
+        "precio": 62,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-068",
+        "nombre": "BOXER NAUTICA MAN M",
+        "descripcion": "Ropa interior Nautica para hombre talla M. Alta calidad y comodidad.",
+        "categoria": "Ropa Interior",
+        "precio": 37,
         "estado": "disponible",
         "fotos": [
             "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
             "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
             "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
         ]
+    },
+    {
+        "codigo": "PROD-069",
+        "nombre": "PERRY ELIS BOXER MAN M",
+        "descripcion": "Ropa interior Perry Ellis para hombre talla M.",
+        "categoria": "Ropa Interior",
+        "precio": 40,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-070",
+        "nombre": "PERRY ELIS BOXER MAN L",
+        "descripcion": "Ropa interior Perry Ellis para hombre talla L.",
+        "categoria": "Ropa Interior",
+        "precio": 40,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-071",
+        "nombre": "TERMO REBOOK HANDLE BOTTLE",
+        "descripcion": "Termo Reebok con asa. Mantiene bebidas frías o calientes.",
+        "categoria": "Ropa Interior",
+        "precio": 35,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1609840112855-9ab5ad8f66e4?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-072",
+        "nombre": "PERRY ELIS BOXER MAN XL",
+        "descripcion": "Ropa interior Perry Ellis para hombre talla XL.",
+        "categoria": "ROPA",
+        "precio": 40,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-073",
+        "nombre": "ZAPATOS TOMMY",
+        "descripcion": "Calzado Tommy. Diseño versátil y cómodo.",
+        "categoria": "ZAPATOS",
+        "precio": 70,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-074",
+        "nombre": "GUEST NEGRA",
+        "descripcion": "Billetera Guess en negro. Diseño sofisticado.",
+        "categoria": "BILLETERA",
+        "precio": 46,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-075",
+        "nombre": "GUEST BLANCO/ROSADO",
+        "descripcion": "Billetera Guess en blanco y rosado. Diseño fresco.",
+        "categoria": "BILLETERA",
+        "precio": 45,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-076",
+        "nombre": "GUEST ROSA",
+        "descripcion": "Billetera Guess en rosa. Diseño elegante.",
+        "categoria": "BILLETERA",
+        "precio": 46,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-077",
+        "nombre": "ANNE KLEIN ROSA FUCSIA",
+        "descripcion": "Billetera Anne Klein en rosa fucsia. Diseño vibrante.",
+        "categoria": "BILLETERA",
+        "precio": 41,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-078",
+        "nombre": "BILLETERA TOMMY VARON",
+        "descripcion": "Billetera Tommy para hombre. Diseño funcional.",
+        "categoria": "BILLETERA",
+        "precio": 41,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-079",
+        "nombre": "BILLETERA GUESS VARON",
+        "descripcion": "Billetera Guess para hombre. Diseño moderno.",
+        "categoria": "BILLETERA",
+        "precio": 41,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-080",
+        "nombre": "BILLETERA NAUTICA VARON",
+        "descripcion": "Billetera Nautica para hombre. Diseño clásico.",
+        "categoria": "BILLETERA",
+        "precio": 41,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1614179689702-355944cd62c7?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-081",
+        "nombre": "TERMO REBOOK TUMBLER",
+        "descripcion": "Termo Reebok tipo tumbler. Ideal para bebidas frías o calientes.",
+        "categoria": "TERMO",
+        "precio": 35,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1609840112855-9ab5ad8f66e4?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-082",
+        "nombre": "MICHAEL KORS ROSADO",
+        "descripcion": "Cartera Michael Kors en rosado. Diseño de lujo.",
+        "categoria": "CARTERA",
+        "precio": 119,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-083",
+        "nombre": "REUSABLE TOTE- BOLSAS ROJAS",
+        "descripcion": "Bolsas reutilizables rojas. Ecológicas y resistentes.",
+        "categoria": "BOLSAS",
+        "precio": 15,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-084",
+        "nombre": "REUSABLE TOTE- BOLSAS ROJAS",
+        "descripcion": "Bolsas reutilizables rojas. Ecológicas y resistentes.",
+        "categoria": "BOLSAS",
+        "precio": 15,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-085",
+        "nombre": "REUSABLE TOTE- BOLSAS ROJAS",
+        "descripcion": "Bolsas reutilizables rojas. Ecológicas y resistentes.",
+        "categoria": "BOLSAS",
+        "precio": 15,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-086",
+        "nombre": "MUDADA BEBE (MARY/MARCOS)",
+        "descripcion": "Muda de bebé. Diseño cómodo y práctico.",
+        "categoria": "ROPA",
+        "precio": 38,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-087",
+        "nombre": "MIA SOFIA (MARY/MARCOS)",
+        "descripcion": "Ropa para bebé. Alta calidad y confort.",
+        "categoria": "ROPA",
+        "precio": 34,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-088",
+        "nombre": "NAUTICA CAMISA 3",
+        "descripcion": "Camisa Nautica. Diseño casual elegante.",
+        "categoria": "CAMISA HOMBRE",
+        "precio": 35,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-089",
+        "nombre": "ELLEN TRACY WOMAN",
+        "descripcion": "Perfume Ellen Tracy para mujer. Fragancia sofisticada.",
+        "categoria": "PERFUME",
+        "precio": 38,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-090",
+        "nombre": "OP PERFUME",
+        "descripcion": "Fragancia Ocean Pacific. Aroma fresco y juvenil.",
+        "categoria": "PERFUME",
+        "precio": 29,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1557170334-a9632e77c6e4?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-091",
+        "nombre": "CAPITAN AMERICA",
+        "descripcion": "Perfume temático Capitán América. Ideal para fans.",
+        "categoria": "PERFUME",
+        "precio": 29,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-092",
+        "nombre": "KENNET COLE BLUSH",
+        "descripcion": "Perfume Kenneth Cole. Aroma elegante y duradero.",
+        "categoria": "PERFUME",
+        "precio": 68,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1557170334-a9632e77c6e4?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-093",
+        "nombre": "GUEST GIRL",
+        "descripcion": "Perfume Guess Girl. Fragancia juvenil y fresca.",
+        "categoria": "PERFUME",
+        "precio": 37,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-094",
+        "nombre": "OSCAR DE LA RENTA MAN",
+        "descripcion": "Perfume Oscar de la Renta para hombre. Elegancia refinada.",
+        "categoria": "PERFUME",
+        "precio": 70,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1557170334-a9632e77c6e4?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-095",
+        "nombre": "GUEST READ",
+        "descripcion": "Perfume Guess. Aroma cautivador.",
+        "categoria": "PERFUME",
+        "precio": 45,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-096",
+        "nombre": "GUEST BELLA VITA",
+        "descripcion": "Perfume Guess Bella Vita. Fragancia femenina y elegante.",
+        "categoria": "PERFUME",
+        "precio": 54,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1557170334-a9632e77c6e4?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-097",
+        "nombre": "BODY GUEST",
+        "descripcion": "Loción corporal Guess. Hidratación y fragancia.",
+        "categoria": "BODY",
+        "precio": 26,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-098",
+        "nombre": "PERFUME NAUTICA VARON",
+        "descripcion": "Perfume Nautica para hombre. Aroma marino y fresco.",
+        "categoria": "PERFUME",
+        "precio": 42,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-099",
+        "nombre": "KENNET COLE WHITE MUJER",
+        "descripcion": "Perfume Kenneth Cole White para mujer. Fragancia ligera y fresca.",
+        "categoria": "PERFUME",
+        "precio": 68,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1557170334-a9632e77c6e4?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-100",
+        "nombre": "NEUTROGENAL GEL CREAM ACIDO HIALURONICO",
+        "descripcion": "Gel crema Neutrogena con ácido hialurónico. Hidratación profunda.",
+        "categoria": "SKIN CARE",
+        "precio": 37,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-101",
+        "nombre": "NEUTROGENAL REFRESHING CLEAR",
+        "descripcion": "Limpiador refrescante Neutrogena. Piel limpia y fresca.",
+        "categoria": "SKIN CARE",
+        "precio": 24,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-102",
+        "nombre": "FACE SERUM CLEAR BEAUTY",
+        "descripcion": "Serum facial para belleza clara. Tratamiento intensivo.",
+        "categoria": "SKIN CARE",
+        "precio": 24,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-103",
+        "nombre": "ADVANCED CLINICALS HIALURONICO SERUM",
+        "descripcion": "Serum avanzado con ácido hialurónico. Anti-edad.",
+        "categoria": "SKIN CARE",
+        "precio": 24,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-104",
+        "nombre": "LOREAL CREMA DIA",
+        "descripcion": "Crema de día L'Oréal. Protección y nutrición.",
+        "categoria": "SKIN CARE",
+        "precio": 42,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-105",
+        "nombre": "YARA",
+        "descripcion": "Perfume Yara. Fragancia dulce y cautivadora.",
+        "categoria": "PERFUME",
+        "precio": 26,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1557170334-a9632e77c6e4?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-106",
+        "nombre": "AGUA MICELAR NUTRO",
+        "descripcion": "Agua micelar Neutrogena. Limpieza suave y efectiva.",
+        "categoria": "SKIN CARE",
+        "precio": 28,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-107",
+        "nombre": "AGUA MICELAR NUTRO",
+        "descripcion": "Agua micelar Neutrogena. Limpieza suave y efectiva.",
+        "categoria": "SKIN CARE",
+        "precio": 28,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-108",
+        "nombre": "CREMA PARA ELASTIICIDAD NEUTROGENA",
+        "descripcion": "Crema Neutrogena para elasticidad. Piel firme y suave.",
+        "categoria": "SKIN CARE",
+        "precio": 30,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-109",
+        "nombre": "Camisa Alex&Parker Talla L",
+        "descripcion": "Camisa Alex & Parker. Diseño moderno y cómodo.",
+        "categoria": "Ropa",
+        "precio": 25,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-110",
+        "nombre": "Mascara Yves saint laurent(34)",
+        "descripcion": "Máscara de pestañas YSL. Volumen y longitud profesional.",
+        "categoria": "Maquillaje",
+        "precio": 34,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-111",
+        "nombre": "Tower 28",
+        "descripcion": "Producto de maquillaje Tower 28. Calidad premium.",
+        "categoria": "Maquillaje",
+        "precio": 28,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-112",
+        "nombre": "Lavial sephora(25)",
+        "descripcion": "Labial Sephora. Colores vibrantes y duraderos.",
+        "categoria": "Maquillaje",
+        "precio": 20,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-113",
+        "nombre": "Blush sephora",
+        "descripcion": "Rubor Sephora. Acabado natural y luminoso.",
+        "categoria": "Maquillaje",
+        "precio": 27,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-114",
+        "nombre": "Blush sephora",
+        "descripcion": "Rubor Sephora. Acabado natural y luminoso.",
+        "categoria": "Maquillaje",
+        "precio": 27,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-115",
+        "nombre": "Fish oil",
+        "descripcion": "Aceite de pescado. Omega 3 para salud cardiovascular.",
+        "categoria": "Vitaminas",
+        "precio": 28,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1550572017-4325b1c04f35?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-116",
+        "nombre": "Fish oil",
+        "descripcion": "Aceite de pescado. Omega 3 para salud cardiovascular.",
+        "categoria": "Vitaminas",
+        "precio": 28,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1628016851692-17691bd7b217?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1615485500834-bc10199bc768?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-117",
+        "nombre": "BIOTIN 10,000MCG 250 GELS",
+        "descripcion": "Biotina 10,000 mcg. Fortalece cabello, piel y uñas.",
+        "categoria": "Vitaminas",
+        "precio": 30,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1550572017-4325b1c04f35?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-118",
+        "nombre": "MINICREMA",
+        "descripcion": "Mini crema hidratante. Tamaño perfecto para viajes.",
+        "categoria": "Crema de Mano",
+        "precio": 7,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-119",
+        "nombre": "MINICREMA",
+        "descripcion": "Mini crema hidratante. Tamaño perfecto para viajes.",
+        "categoria": "Crema de Mano",
+        "precio": 7,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-120",
+        "nombre": "MINICREMA",
+        "descripcion": "Mini crema hidratante. Tamaño perfecto para viajes.",
+        "categoria": "Crema de Mano",
+        "precio": 7,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-121",
+        "nombre": "MINICREMA",
+        "descripcion": "Mini crema hidratante. Tamaño perfecto para viajes.",
+        "categoria": "Crema de Mano",
+        "precio": 7,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-122",
+        "nombre": "PAQUETE TIDE",
+        "descripcion": "Paquete de detergente Tide. Limpieza profunda.",
+        "categoria": "Otros",
+        "precio": 14,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-123",
+        "nombre": "Licor Botellita",
+        "descripcion": "Botella miniatura de licor. Ideal para colección o regalo.",
+        "categoria": "Licor",
+        "precio": 6,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1511381939415-e44015466834?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-124",
+        "nombre": "Licor Botellita",
+        "descripcion": "Botella miniatura de licor. Ideal para colección o regalo.",
+        "categoria": "Licor",
+        "precio": 6,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1511381939415-e44015466834?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-125",
+        "nombre": "Licor Botellita",
+        "descripcion": "Botella miniatura de licor. Ideal para colección o regalo.",
+        "categoria": "Licor",
+        "precio": 6,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1511381939415-e44015466834?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-126",
+        "nombre": "Licor Botellita",
+        "descripcion": "Botella miniatura de licor. Ideal para colección o regalo.",
+        "categoria": "Licor",
+        "precio": 6,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1511381939415-e44015466834?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-127",
+        "nombre": "Licor Botellita",
+        "descripcion": "Botella miniatura de licor. Ideal para colección o regalo.",
+        "categoria": "Licor",
+        "precio": 6,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1511381939415-e44015466834?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-128",
+        "nombre": "Licor Botellita",
+        "descripcion": "Botella miniatura de licor. Ideal para colección o regalo.",
+        "categoria": "Licor",
+        "precio": 6,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1511381939415-e44015466834?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-129",
+        "nombre": "Licor Botellita",
+        "descripcion": "Botella miniatura de licor. Ideal para colección o regalo.",
+        "categoria": "Licor",
+        "precio": 6,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1511381939415-e44015466834?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-130",
+        "nombre": "Licor Botellita",
+        "descripcion": "Botella miniatura de licor. Ideal para colección o regalo.",
+        "categoria": "Licor",
+        "precio": 6,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1511381939415-e44015466834?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-131",
+        "nombre": "Licor Botellita",
+        "descripcion": "Botella miniatura de licor. Ideal para colección o regalo.",
+        "categoria": "Licor",
+        "precio": 6,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1511381939415-e44015466834?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-132",
+        "nombre": "Licor Botellita",
+        "descripcion": "Botella miniatura de licor. Ideal para colección o regalo.",
+        "categoria": "Licor",
+        "precio": 6,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1511381939415-e44015466834?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-133",
+        "nombre": "Licor Botellita",
+        "descripcion": "Botella miniatura de licor. Ideal para colección o regalo.",
+        "categoria": "Licor",
+        "precio": 6,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1511381939415-e44015466834?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-134",
+        "nombre": "Brasier Lucky Brand",
+        "descripcion": "Sujetador Lucky Brand. Comodidad y soporte.",
+        "categoria": "Ropa Interior",
+        "precio": 27,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-135",
+        "nombre": "Pulsera Givenchy",
+        "descripcion": "Pulsera Givenchy. Elegancia y estilo.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-136",
+        "nombre": "Pulsera Givenchy",
+        "descripcion": "Pulsera Givenchy. Elegancia y estilo.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-137",
+        "nombre": "Pulsera Givenchy",
+        "descripcion": "Pulsera Givenchy. Elegancia y estilo.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-138",
+        "nombre": "Pulsera Givenchy",
+        "descripcion": "Pulsera Givenchy. Elegancia y estilo.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-139",
+        "nombre": "Pulsera Givenchy",
+        "descripcion": "Pulsera Givenchy. Elegancia y estilo.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-140",
+        "nombre": "Pulsera Inc",
+        "descripcion": "Pulsera Inc. Diseño moderno.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-141",
+        "nombre": "Pulsera Estrella de Mar",
+        "descripcion": "Pulsera con diseño de estrella de mar. Elegante y delicada.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-142",
+        "nombre": "Cadena Givenchy Verde",
+        "descripcion": "Cadena Givenchy en verde. Diseño sofisticado.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-143",
+        "nombre": "Cadena Anna Klein Blanco",
+        "descripcion": "Cadena Anne Klein en blanco. Elegancia clásica.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-144",
+        "nombre": "Cadena Anna Klein Celeste/Blanco",
+        "descripcion": "Cadena Anne Klein celeste y blanco. Diseño fresco.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-145",
+        "nombre": "Aretes Charter Club",
+        "descripcion": "Aretes Charter Club. Diseño elegante.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-146",
+        "nombre": "Aretes Charter Club",
+        "descripcion": "Aretes Charter Club. Diseño elegante.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-147",
+        "nombre": "Cadena Double Take",
+        "descripcion": "Cadena Double Take. Doble estilo.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-148",
+        "nombre": "Cadena Double Take",
+        "descripcion": "Cadena Double Take. Doble estilo.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-149",
+        "nombre": "Cadena Double Take",
+        "descripcion": "Cadena Double Take. Doble estilo.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-150",
+        "nombre": "Cadena Double Take",
+        "descripcion": "Cadena Double Take. Doble estilo.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-151",
+        "nombre": "Cadena Double Take",
+        "descripcion": "Cadena Double Take. Doble estilo.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-152",
+        "nombre": "Cadena Double Take",
+        "descripcion": "Cadena Double Take. Doble estilo.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-153",
+        "nombre": "Cadena Double Take",
+        "descripcion": "Cadena Double Take. Doble estilo.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-154",
+        "nombre": "Pulsera Double Take",
+        "descripcion": "Pulsera Double Take. Doble elegancia.",
+        "categoria": "Bizuteria",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-155",
+        "nombre": "Calzon Nicole New York",
+        "descripcion": "Ropa interior Nicole New York. Comodidad y estilo.",
+        "categoria": "Ropa Interior",
+        "precio": 28,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-156",
+        "nombre": "Mochila Winnie the Pooh",
+        "descripcion": "Mochila Winnie the Pooh. Diseño infantil adorable.",
+        "categoria": "Mochila",
+        "precio": 19,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-157",
+        "nombre": "Calzon Fit",
+        "descripcion": "Ropa interior Fit. Ajuste perfecto y comodidad.",
+        "categoria": "Ropa Interior",
+        "precio": 28,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-158",
+        "nombre": "Short Brave",
+        "descripcion": "Short deportivo Brave. Comodidad para actividades físicas.",
+        "categoria": "Ropa",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-159",
+        "nombre": "Camisa de Mujer No Comment L/XL",
+        "descripcion": "Camisa para mujer No Comment. Diseño casual.",
+        "categoria": "Ropa",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-160",
+        "nombre": "Vestido Rosa BarDot Talla L",
+        "descripcion": "Vestido rosa BarDot. Elegante y femenino.",
+        "categoria": "Ropa",
+        "precio": 28,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-161",
+        "nombre": "Pantalon Beige Mesini XL",
+        "descripcion": "Pantalón beige Mesini. Elegante y cómodo.",
+        "categoria": "Ropa",
+        "precio": 20,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-162",
+        "nombre": "Calzetines Adidas Varon Negro 6 Pair 6-12",
+        "descripcion": "Paquete de 6 pares de calcetines Adidas negros para hombre.",
+        "categoria": "Ropa",
+        "precio": 28,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-163",
+        "nombre": "Calzetines Adidas Varon Variado 6 Pair 6-12",
+        "descripcion": "Paquete de 6 pares de calcetines Adidas variados para hombre.",
+        "categoria": "Ropa",
+        "precio": 28,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-164",
+        "nombre": "Calzetines Tommy Varon Variado 6 Pair Unica",
+        "descripcion": "Paquete de 6 pares de calcetines Tommy variados para hombre.",
+        "categoria": "Ropa",
+        "precio": 30,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-165",
+        "nombre": "Vestido verde largo Talla S/M",
+        "descripcion": "Vestido largo verde. Elegante y fresco.",
+        "categoria": "Ropa",
+        "precio": 14,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-166",
+        "nombre": "Conjunto Crema",
+        "descripcion": "Conjunto en color crema. Elegante y versátil.",
+        "categoria": "Ropa",
+        "precio": 50,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-167",
+        "nombre": "Short Woman M 2 pak",
+        "descripcion": "Paquete de 2 shorts para mujer talla M.",
+        "categoria": "Ropa",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-168",
+        "nombre": "Falda Woman L 2 PAK",
+        "descripcion": "Paquete de 2 faldas para mujer talla L.",
+        "categoria": "Ropa",
+        "precio": 17,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-169",
+        "nombre": "Camisa True Talla 1X",
+        "descripcion": "Camisa True talla 1X. Diseño casual y cómodo.",
+        "categoria": "Ropa",
+        "precio": 16,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-170",
+        "nombre": "Short de Ninio playero Talla S",
+        "descripcion": "Short playero para niño talla S. Perfecto para la playa.",
+        "categoria": "Ropa",
+        "precio": 13,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-171",
+        "nombre": "Camisa Liv Los Angeles Talla M",
+        "descripcion": "Camisa Liv Los Angeles. Estilo californiano.",
+        "categoria": "Ropa",
+        "precio": 13,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-172",
+        "nombre": "Camisa de Ninia Rosa Talla 7/8",
+        "descripcion": "Camisa rosa para niña talla 7/8. Diseño juvenil.",
+        "categoria": "Ropa",
+        "precio": 10,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-173",
+        "nombre": "Labial EOS",
+        "descripcion": "Bálsamo labial EOS. Hidratación y protección.",
+        "categoria": "Maquillaje",
+        "precio": 13,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&h=500&fit=crop"
+        ]
+    },
+    {
+        "codigo": "PROD-174",
+        "nombre": "TOMMY MUJER PERFUME Y CREMA",
+        "descripcion": "Set Tommy para mujer con perfume y crema. Regalo perfecto.",
+        "categoria": "PERFUME",
+        "precio": 65,
+        "estado": "disponible",
+        "fotos": [
+            "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=500&h=500&fit=crop",
+            "https://images.unsplash.com/photo-1557170334-a9632e77c6e4?w=500&h=500&fit=crop"
+        ]
     }
 ]
-
